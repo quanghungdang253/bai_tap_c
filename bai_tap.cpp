@@ -144,10 +144,30 @@ using namespace std;
            } 
            cout << endl;   
   }
-  }                                                                                      //triangle : hình tam giác
+  }     
+         void count_number(int n){
+               int count = 0;
+float valuee = n;
+if(n == 0){
+   count = 1;
+}
+              while(n!=0){
+                   valuee = valuee / 10;
+                    count ++;
+         }
+cout << "so" << n <<" co " << count << " chu so " <<endl;
+}
+void Check_square_numbers(int n){
+          if(pow(sqrt(n),2)==n){
+                    cout << n << " la so chinh phuong " <<endl;
+          }
+else{
+      cout << n << " khong phai la so chinh phuong " <<endl;
+}
+
 int main(){                                                                                //rhombus :  hình thoi 
   while(true){                                                                              
-cout<<"-----------------------------MENU-------------------------------------" << endl;    
+cout<<"-----------------------------MENU-------------------------------------" << endl;    //triangle : hình tam giác
 cout<<"1 .  TINH LUY THUA x^y                                               -" << endl;                                   
 cout<<"2 .  TINH GIAI THUA                                                  -" << endl; 
 cout<<"3 .  TINH PHUONG TRINH BAC HAI                                       -" << endl;
@@ -159,6 +179,8 @@ cout<<"8 .  TIM SO LON NHAT VA SO NHO NHAT                                  -" <
 cout<<"9 .  VE HINH CHU NHAT BANG DAU SAO                                   -" << endl;
 cout<<"10.  VE HINH TAM GIAC BANG DAU SAO                                   -" << endl;
 cout<<"11.  VE HINH THOI BANG DAU SAO                                       -" << endl;
+cout<<"12.  ĐEM SO SO LUONG SO SO NGUYEN DUONG                              -" << endl;
+cout<<"13.  KIEM TRA SO CHINH PHUONG                                        -" << endl;
     int choose;
     int n;
     cout <<" lua chon so : ";
@@ -252,8 +274,30 @@ cout<<"11.  VE HINH THOI BANG DAU SAO                                       -" <
               cout<<endl;
               rhombus(floor);
          }
-          }
+         case 12:{
+              int n;
+              cout << " nhap vao so tu nhien : ";
+              cin >> n;
+              while(n<0){
+                   cout << " so khong hop le ! vui long nhap lai ";
+                   cin >> n;
+                   if(n>0){
+                        break;
+                          }
        
     }
+              count_number(n);
+              break;
+         }
+         case 13:{
+              int square_number; 
+              cout << " nhap vao so de kiem tra ";
+              cin >> square_number;
+              check_square_number(square_number);
+              
+              break;
+         }
+                                                                          // square number : số chính chương 
+              
     return 0;
 }

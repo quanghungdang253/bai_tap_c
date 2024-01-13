@@ -151,11 +151,11 @@ float valuee = n;
 if(n == 0){
    count = 1;
 }
-              while(n!=0){
+              while(valuee!=0){
                    valuee = valuee / 10;
                     count ++;
          }
-cout << "so" << n <<" co " << count << " chu so " <<endl;
+cout << " so " << n <<" co " << count << " chu so " <<endl;
 }
 void Check_square_numbers(int n){
           if(pow(sqrt(n),2)==n){
@@ -293,11 +293,12 @@ cout<<"13.  KIEM TRA SO CHINH PHUONG                                        -" <
               int square_number; 
               cout << " nhap vao so de kiem tra ";
               cin >> square_number;
-              check_square_number(square_number);
+              check_square_numbers(square_number);
               
               break;
          }
                                                                           // square number : số chính chương 
-              
+         } 
+  }
     return 0;
 }

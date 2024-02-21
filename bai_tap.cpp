@@ -164,6 +164,7 @@ void Check_square_numbers(int n){
 else{
       cout << n << " khong phai la so chinh phuong " <<endl;
 }
+}
 
 int main(){                                                                                //rhombus :  hình thoi 
   while(true){                                                                              
@@ -293,7 +294,7 @@ cout<<"13.  KIEM TRA SO CHINH PHUONG                                        -" <
               int square_number; 
               cout << " nhap vao so de kiem tra ";
               cin >> square_number;
-              check_square_numbers(square_number);
+              Check_square_numbers(square_number);
               
               break;
          }

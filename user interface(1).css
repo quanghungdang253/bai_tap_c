@@ -1,0 +1,122 @@
+body{
+  background-image: url("city-4935633_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y:-130px ;
+}
+.contact{
+   position: relative;
+   left:85%;
+   top:27px;
+   box-shadow: 0px 0px 17px rgb(21, 19, 19);
+   width: 8%;
+   font-size: 30px;
+}
+.Home{
+   position: relative;
+   left: 50%;
+   top:-26px;
+   box-shadow: 0px 0px 17px rgb(21, 19, 19);
+   width: 6%;
+   font-size: 30px;
+   margin-top: 20px;
+}
+.About{
+    position:relative;
+   left: 68%;
+   top: -20px;
+  margin-top: -60px;
+  box-shadow: 0px 0px 17px rgb(21, 19, 19);
+  width: 6%;
+  font-size: 30px;
+}
+.Wellcome1{
+    font-family:'Times New Roman', Times, serif;
+  
+    position: relative;
+    left:30px;
+    top: -100px;
+   font-size: 50px;
+    color: rgb(9, 9, 9);
+    box-shadow: 0px 0px 17px rgb(21, 19, 19);
+    width: 14%;   
+}
+.heading{
+position: relative;
+left: 32%;
+top:-40px;
+width: 37% 
+}
+.information-about-deverlopment{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style : italic;
+    left: 50%; 
+}
+#form-body{
+    padding: 80px 10px 10px;
+}
+.enter-information{
+ text-align: center;
+ position: relative;
+ top: -80px;
+
+}
+#wrapper{
+    position: relative;
+    bottom: 95px;
+    right: 190px;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 330px;
+    width: 115%;
+
+}
+.wrapper1{
+  
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    left: 20%;
+    top: 22px;
+    padding: 25px 9px 20px 20px;
+    box-shadow: 0px 0px 17px rgb(248, 247, 247);
+
+}
+.wrapper2{ 
+        position: relative;
+        left:35%;
+        top: 22px;
+         display: inline-block;
+       background-color: rgba(0, 0, 0, 0.4);
+       padding: 7px 1px 20px 15px;
+       box-sizing: border-box;
+       box-shadow: 0px 0px 17px rgb(248, 247, 247);   
+   }
+   .form-input{
+    margin: 20px;
+    color: rgb(0, 238, 255);
+    text-decoration-line: underline;
+    border-bottom: 1px solid white;
+    outline: 0;
+
+
+   }
+   .input{
+    background: transparent;
+    outline: 0;
+    border: 0;
+    height: 29px;
+    width: 300px;
+    color: white;
+   
+   }
+
+   
+
+
+
+
+
+
+
+
